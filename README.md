@@ -1,7 +1,9 @@
-🌿 SeedTogether – Dein smarter Pflanzenberater
-SeedTogether ist eine interaktive Web-App, die dir hilft, die perfekten Pflanzen für 
-deinen Balkon oder Garten zu finden. 
-Die App kombiniert deine persönlichen Vorlieben mit Echtzeit-Wetterdaten deines Standorts.
+🌱 Dein smarter Pflanzenberater für Balkon & Garten
+
+📍 Über das Projekt
+
+Pflanzenberater macht Schluss mit dem Rätselraten beim Pflanzenkauf. 
+Die App kombiniert deine persönlichen Vorlieben mit den Echtzeit-Wetterbedingungen deines Standorts.
 
 🚀 Live-Demo
 Du kannst die App direkt im Browser ausprobieren:
@@ -9,29 +11,37 @@ Du kannst die App direkt im Browser ausprobieren:
 
 🌟 Highlights
 
-📍 Präziser Standort-Check
-Die App ermittelt über die Open-Meteo API die aktuellen Bedingungen wie Temperatur, 
-UV-Index und Luftqualität für deine Stadt.
+🌍 Präziser Wetter-Check
+Die App nutzt die Open-Meteo API, um Live-Daten direkt für deine Stadt abzurufen:
 
-📊 Historische Analyse
-Um eine nachhaltige Empfehlung zu geben, analysiert die App Wetterstatistiken der letzten 5 Jahre. So erfährst du, 
-wie viele Sonnenstunden deine Pflanzen an deinem Wohnort im Durchschnitt wirklich bekommen.
+Temperatur & Luftfeuchtigkeit
+UV-Index & Luftqualität
+Historische 5-Jahres-Analyse für Sonnenstunden
 
-🧠 Intelligentes Matching
-Filtere deine Suche nach deinen individuellen Gegebenheiten:
-Standorttyp: Balkon, Garten oder Zimmer.
-Lichtverhältnisse: Von praller Sonne bis zum kühlen Schatten.
-Erfahrung & Zeit: Vom pflegeleichten Einsteiger-Gewächs bis zur anspruchsvollen Profi-Pflanze.
+🧠 Intelligentes Pflanzen-Matching
+Kein "Einfach-mal-Probieren" mehr. Die App filtert unsere Datenbank nach:
 
-📖 Automatisches Pflanzen-Lexikon
-Zu jedem Treffer lädt die App über die Wikipedia API automatisch Bilder und Kurzbeschreibungen, 
-damit du sofort weißt, wie dein neuer grüner Mitbewohner aussieht.
+Standorttyp: Balkon, Garten oder Beides.
+Licht: Von schattig bis pralle Sonne.
+Erfahrung: Anfänger, Fortgeschritten oder Experte.
 
-🛠️ Technik & Daten
-Die Anwendung basiert auf dem Streamlit Framework und nutzt eine umfassende lokale Datenbank (pflanzen_erweitert.csv).
+📖 Automatisches Lexikon
 
-Verwendete Bibliotheken:
-Pandas: Für die effiziente Datenverarbeitung.
-Requests: Für die Kommunikation mit den Wetter- und Info-Schnittstellen.
-Streamlit-Extras: Für ein modernes, kartenbasiertes Design der Wetterdaten.
+Dank der Wikipedia API erhältst du zu jedem Treffer:
 
+Echte Fotos der Pflanzen.
+Pflegetipps und Kurzbeschreibungen.
+Klima-Warnungen, falls es an deinem Ort zu kalt ist.
+
+🛠️ Technische Details
+Technologie	Nutzung
+Python	Programmiersprache
+Streamlit	Frontend & UI Framework
+Pandas	Datenverarbeitung der CSV
+Open-Meteo	Wetter- & Geocoding-Schnittstelle
+Wikipedia API	Bild- & Text-Sourcing
+
+📖 Anleitung
+Standort eingeben: Tippe deine Stadt ein.
+Filter setzen: Wähle Licht, Platz und dein Level.
+Ergebnisse checken: Klicke auf die Pflanzen-Karten für Details
