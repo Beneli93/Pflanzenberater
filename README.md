@@ -7,7 +7,7 @@ Die App kombiniert deine persönlichen Vorlieben mit den Echtzeit-Wetterbedingun
 
 🚀 Live-Demo
 Du kannst die App direkt im Browser ausprobieren:
-[Hier Link zu deiner Streamlit-URL einfügen]
+[https://pflanzenberater.streamlit.app/]
 
 🌟 Highlights
 
